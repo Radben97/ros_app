@@ -10,6 +10,11 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+         maven {
+            url 'https://maven.mappls.com/repository/mappls/'
+        }
+
+        maven { url 'https://www.jitpack.io' }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
