@@ -8,6 +8,9 @@ workflows:
       node: 20
       java: 17
 
+      android_signing:
+        - ros_keystore
+
     scripts:
       - name: Install dependencies
         script: npm install
